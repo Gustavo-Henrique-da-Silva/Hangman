@@ -4,10 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="main.js"></script>
+    <title>Guess the programing language</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!--Folder Model-->
+    <script src="js/Model/reset.js"></script>
+    <script src="js/Model/play.js"></script>
+    <script src="js/Model/results.js"></script>
+    <script src="js/Model/exit.js"></script>
+
+    <!--Js Folder-->
+    <script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+    <script defer src="js/main.js"></script>
 </head>
 <body>
-    
+    <main>
+    <h2 id="textAttempts"></h2>
+    <h1 id="header">H A N G M A N </br> Programing Version</h1>
+    <h3 id="text"></h3>
+    <p id="vWin"></p>
+    <p id="vLoss"></p>
+    <p id="vGame"></p>
+    <h2 id="headerWord"></h2>
+    <div class="d-flex" role="search">
+        <input class="form-control me-2" type="search" id="letter">
+        <button id="start" class="btn btn-outline-success button-choice">Start</button>
+        <button id="results" class="btn btn-outline-success button-choice">Results</button>
+        <button id="exit" class="btn btn-outline-success button-choice">Exit</button>
+        <button id="game" class="btn btn-outline-success">Input</button>
+        
+      </div>
+      <p id="parg"></p>
+</main>
 </body>
 </html>
